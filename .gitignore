@@ -1,3 +1,32 @@
-echo "__pycache__/" >> .gitignore
-echo "*.pyc" >> .gitignore
-echo "*.pt" >> .gitignore
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Jupyter notebooks (optional)
+.ipynb_checkpoints/
+
+# PyTorch model weights
+*.pt
+*.pth
+
+# Data or generated files
+*.pkl
+*.log
+*.h5
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# Environment variables (if used later)
+.env
+
+# Gradio cache (optional)
+gradio_cached_examples/
