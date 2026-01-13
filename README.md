@@ -6,7 +6,7 @@ Generate professional logos using Stable Diffusion and Gradio.
 - Enter company name, industry, and colors.
 - Outputs a professional logo image generated via AI.
 - Powered by: `diffusers`, `torch`, `gradio`, and `Stable Diffusion v1.5`.
-- 
+  
 1. Problem statement (start here in the interview)
 Most startups and individuals struggle to create professional logos because:
 
